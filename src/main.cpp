@@ -53,10 +53,14 @@ void loop() // run over and over
 
   int newCoffeeAmount = addKaffeeCsvEntry(String("FA695AA9"));
   Serial.print("addCoffee(FA695AA9) : ");Serial.println(newCoffeeAmount);
+   Serial.println("---------------------------------------------------");
+
+  newCoffeeAmount = addKaffeeCsvEntry(String("6D51D0F1"));
+  Serial.print("addCoffee(6D51D0F1) : ");Serial.println(newCoffeeAmount);
 
   delay(15000);
 
-  Serial.println("---------------------------------------------------");
+  Serial.println("*****************************************************");
 
 
 
